@@ -1,0 +1,17 @@
+.menu {
+    background: #343a40!important;
+}
+
+a {
+   color: white;
+}
+
+.logoutButton {
+    float: right;
+    display: grid;
+    margin-right: 0px;
+    clear: left;
+    color: white;
+    border: none;
+    height: 30px;
+}

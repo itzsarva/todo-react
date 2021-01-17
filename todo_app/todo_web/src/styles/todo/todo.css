@@ -1,0 +1,44 @@
+.todo-list {
+    background: greenyellow;
+    border-radius: 4px;
+    max-width: 400px;
+    padding: 5px;
+}
+
+.todoIcon {
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.removeIcon {
+    position: absolute;
+    overflow-y: hidden;
+    margin-left: 68px;
+    margin-top: -7px;
+}
+
+.todo {
+    align-items: center;
+    background: greenyellow;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    padding: 3px 10px;
+}
+
+
+.todo-container {
+    display: flex;
+    margin-left: 10px;
+}
+
+.todo-child {
+    flex: 2;
+}
+
+.todo-container > * + * {
+    margin-left: 50px;
+}
+

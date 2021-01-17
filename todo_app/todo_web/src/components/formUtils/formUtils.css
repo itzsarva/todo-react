@@ -1,0 +1,15 @@
+.carLabel {
+    color: white;
+    font-size: smaller;
+}
+
+.form-control {
+    width: auto!important;
+    height: 33px!important;
+}
+
+.carSelect {
+    background: grey;
+    font-size: smaller;
+    color: black;
+}
